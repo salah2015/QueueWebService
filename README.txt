@@ -14,4 +14,11 @@ the list function can use that queue as a data source instead of local ArrayList
 
 Due to time limitation, I could not add test cases to this project. However, I have used web browser and soapUI 
 to test functionality of both services. I assumed that the Application Server would be configured to handle 
-MAX concurrent user request as per requirement.  
+MAX concurrent user request as per requirement. 
+
+
+REST URL: 
+http://localhost:8080/QueueWebService/rest/queueservice/push?i1=2&i2=4
+http://localhost:8080/QueueWebService/rest/queueservice/list
+
+WSDL: http://localhost:8080/QueueWebService/GcdCalculator
